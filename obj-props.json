@@ -132,8 +132,10 @@
 		"create",
 		"defineProperties",
 		"defineProperty",
+		"entries",
 		"freeze",
 		"getOwnPropertyDescriptor",
+		"getOwnPropertyDescriptors",
 		"getOwnPropertyNames",
 		"getOwnPropertySymbols",
 		"getPrototypeOf",
@@ -147,12 +149,11 @@
 		"preventExtensions",
 		"prototype",
 		"seal",
-		"setPrototypeOf"
+		"setPrototypeOf",
+		"values"
 	],
 	"Promise": [
-		"accept",
 		"all",
-		"defer",
 		"length",
 		"name",
 		"prototype",
@@ -217,6 +218,7 @@
 		"prototype",
 		"replace",
 		"search",
+		"species",
 		"split",
 		"toPrimitive",
 		"toStringTag",
