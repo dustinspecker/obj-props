@@ -1,127 +1,178 @@
 {
 	"Array": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"from",
 		"isArray",
 		"length",
 		"name",
 		"of",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"ArrayBuffer": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"isView",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"BigInt": [
+		"apply",
+		"arguments",
 		"asIntN",
 		"asUintN",
+		"bind",
+		"call",
+		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"BigInt64Array": [
 		"BYTES_PER_ELEMENT",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"BigUint64Array": [
 		"BYTES_PER_ELEMENT",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Boolean": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"DataView": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"Date": [
 		"UTC",
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
 		"now",
 		"parse",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"Error": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
 		"captureStackTrace",
+		"constructor",
 		"length",
 		"name",
 		"prototype",
-		"stackTraceLimit"
+		"stackTraceLimit",
+		"toString"
 	],
 	"Float32Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Float64Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Function": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"Int16Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Int32Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Int8Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Map": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"Number": [
 		"EPSILON",
@@ -132,8 +183,12 @@
 		"NEGATIVE_INFINITY",
 		"NaN",
 		"POSITIVE_INFINITY",
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"isFinite",
 		"isInteger",
 		"isNaN",
@@ -142,12 +197,17 @@
 		"name",
 		"parseFloat",
 		"parseInt",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"Object": [
+		"apply",
 		"arguments",
 		"assign",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"create",
 		"defineProperties",
 		"defineProperty",
@@ -170,16 +230,25 @@
 		"prototype",
 		"seal",
 		"setPrototypeOf",
+		"toString",
 		"values"
 	],
 	"Promise": [
 		"all",
+		"allSettled",
+		"apply",
+		"arguments",
+		"bind",
+		"call",
+		"caller",
+		"constructor",
 		"length",
 		"name",
 		"prototype",
 		"race",
 		"reject",
-		"resolve"
+		"resolve",
+		"toString"
 	],
 	"RegExp": [
 		"$&",
@@ -196,8 +265,12 @@
 		"$9",
 		"$_",
 		"$`",
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"input",
 		"lastMatch",
 		"lastParen",
@@ -205,34 +278,56 @@
 		"length",
 		"name",
 		"prototype",
-		"rightContext"
+		"rightContext",
+		"toString"
 	],
 	"Set": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"SharedArrayBuffer": [
+		"apply",
+		"arguments",
+		"bind",
+		"call",
+		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"String": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"fromCharCode",
 		"fromCodePoint",
 		"length",
 		"name",
 		"prototype",
-		"raw"
+		"raw",
+		"toString"
 	],
 	"Symbol": [
+		"apply",
 		"arguments",
 		"asyncIterator",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"for",
 		"hasInstance",
 		"isConcatSpreadable",
@@ -248,53 +343,64 @@
 		"species",
 		"split",
 		"toPrimitive",
+		"toString",
 		"toStringTag",
 		"unscopables"
 	],
 	"Uint16Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Uint32Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Uint8Array": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"Uint8ClampedArray": [
 		"BYTES_PER_ELEMENT",
-		"arguments",
-		"caller",
+		"from",
 		"length",
 		"name",
+		"of",
 		"prototype"
 	],
 	"WeakMap": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	],
 	"WeakSet": [
+		"apply",
 		"arguments",
+		"bind",
+		"call",
 		"caller",
+		"constructor",
 		"length",
 		"name",
-		"prototype"
+		"prototype",
+		"toString"
 	]
 }
