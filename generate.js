@@ -6,7 +6,6 @@
 const fs = require('fs');
 const jsTypes = require('js-types');
 
-// eslint-disable-next-line no-use-extend-native/no-use-extend-native
 const ret = Object.fromEntries(jsTypes.map(cur => {
 	return [
 		cur,
