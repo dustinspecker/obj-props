@@ -6,22 +6,16 @@
 const fs = require('fs');
 const jsTypes = require('js-types');
 
-const noLegacyProps = [
-	'BigInt',
-	'BigInt64Array',
-	'BigUint64Array',
-	'Promise',
-	'SharedArrayBuffer'
-];
-
 // eslint-disable-next-line no-use-extend-native/no-use-extend-native
 const ret = Object.fromEntries(jsTypes.map(cur => {
-	// Inject arguments / caller properties where they existed in node.js 10.
-	const fromNode10 = noLegacyProps.includes(cur) ? [] : ['arguments', 'caller'];
-
 	return [
 		cur,
-		fromNode10.concat(Object.getOwnPropertyNames(global[cur])).sort()
+		[
+			...new Set([
+				...Object.getOwnPropertyNames(global[cur]),
+				...Object.getOwnPropertyNames(Reflect.getPrototypeOf(global[cur]))
+			])
+		].sort()
 	];
 }));
 
