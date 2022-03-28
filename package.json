@@ -1,6 +1,6 @@
 {
   "name": "obj-props",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "List of properties for JavaScript objects",
   "license": "MIT",
   "repository": "dustinspecker/obj-props",
