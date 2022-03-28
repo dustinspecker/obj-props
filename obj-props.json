@@ -219,6 +219,7 @@
 		"getOwnPropertyNames",
 		"getOwnPropertySymbols",
 		"getPrototypeOf",
+		"hasOwn",
 		"is",
 		"isExtensible",
 		"isFrozen",
@@ -236,6 +237,7 @@
 	"Promise": [
 		"all",
 		"allSettled",
+		"any",
 		"apply",
 		"arguments",
 		"bind",
