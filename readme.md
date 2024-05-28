@@ -1,4 +1,4 @@
-# obj-props [![Build Status](https://travis-ci.org/dustinspecker/obj-props.svg?branch=master)](https://travis-ci.org/dustinspecker/obj-props)
+# obj-props
 
 > List of properties for JavaScript objects
 
