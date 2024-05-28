@@ -13,11 +13,13 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
     "generate": "node generate.js"
   },
-  "main": "obj-props.json",
+  "type": "module",
+  "main": "index.js",
   "files": [
+    "index.js",
     "obj-props.json"
   ],
   "keywords": [
@@ -37,8 +39,7 @@
     "object"
   ],
   "devDependencies": {
-    "ava": "^2.1.0",
-    "js-types": "^2.1.0",
-    "xo": "^0.24.0"
+    "ava": "^6.1.3",
+    "js-types": "^4.0.0"
   }
 }

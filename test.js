@@ -1,6 +1,5 @@
-'use strict';
 import test from 'ava';
-import objProps from './obj-props';
+import objProps from './index.js';
 
 test('obj-props', t => {
 	t.true(Object.keys(objProps).length > 0);

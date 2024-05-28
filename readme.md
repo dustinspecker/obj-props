@@ -17,7 +17,7 @@ $ npm install --save obj-props
 ## Usage
 
 ```js
-var objProps = require('obj-props');
+import objProps from 'obj-props';
 
 console.log(objProps);
 /*
