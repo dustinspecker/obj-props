@@ -1,4 +1,12 @@
 {
+	"AggregateError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
+	],
 	"Array": [
 		"apply",
 		"arguments",
@@ -7,6 +15,7 @@
 		"caller",
 		"constructor",
 		"from",
+		"fromAsync",
 		"isArray",
 		"length",
 		"name",
@@ -106,8 +115,29 @@
 		"constructor",
 		"length",
 		"name",
+		"prepareStackTrace",
 		"prototype",
 		"stackTraceLimit",
+		"toString"
+	],
+	"EvalError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
+	],
+	"FinalizationRegistry": [
+		"apply",
+		"arguments",
+		"bind",
+		"call",
+		"caller",
+		"constructor",
+		"length",
+		"name",
+		"prototype",
 		"toString"
 	],
 	"Float32Array": [
@@ -169,6 +199,7 @@
 		"call",
 		"caller",
 		"constructor",
+		"groupBy",
 		"length",
 		"name",
 		"prototype",
@@ -219,6 +250,7 @@
 		"getOwnPropertyNames",
 		"getOwnPropertySymbols",
 		"getPrototypeOf",
+		"groupBy",
 		"hasOwn",
 		"is",
 		"isExtensible",
@@ -250,7 +282,63 @@
 		"race",
 		"reject",
 		"resolve",
+		"toString",
+		"withResolvers"
+	],
+	"Proxy": [
+		"apply",
+		"arguments",
+		"bind",
+		"call",
+		"caller",
+		"constructor",
+		"length",
+		"name",
+		"revocable",
 		"toString"
+	],
+	"RangeError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
+	],
+	"ReferenceError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
+	],
+	"Reflect": [
+		"__defineGetter__",
+		"__defineSetter__",
+		"__lookupGetter__",
+		"__lookupSetter__",
+		"__proto__",
+		"apply",
+		"construct",
+		"constructor",
+		"defineProperty",
+		"deleteProperty",
+		"get",
+		"getOwnPropertyDescriptor",
+		"getPrototypeOf",
+		"has",
+		"hasOwnProperty",
+		"isExtensible",
+		"isPrototypeOf",
+		"ownKeys",
+		"preventExtensions",
+		"propertyIsEnumerable",
+		"set",
+		"setPrototypeOf",
+		"toLocaleString",
+		"toString",
+		"valueOf"
 	],
 	"RegExp": [
 		"$&",
@@ -325,11 +413,13 @@
 	"Symbol": [
 		"apply",
 		"arguments",
+		"asyncDispose",
 		"asyncIterator",
 		"bind",
 		"call",
 		"caller",
 		"constructor",
+		"dispose",
 		"for",
 		"hasInstance",
 		"isConcatSpreadable",
@@ -348,6 +438,22 @@
 		"toString",
 		"toStringTag",
 		"unscopables"
+	],
+	"SyntaxError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
+	],
+	"TypeError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
 	],
 	"Uint16Array": [
 		"BYTES_PER_ELEMENT",
@@ -381,7 +487,27 @@
 		"of",
 		"prototype"
 	],
+	"URIError": [
+		"captureStackTrace",
+		"length",
+		"name",
+		"prepareStackTrace",
+		"prototype",
+		"stackTraceLimit"
+	],
 	"WeakMap": [
+		"apply",
+		"arguments",
+		"bind",
+		"call",
+		"caller",
+		"constructor",
+		"length",
+		"name",
+		"prototype",
+		"toString"
+	],
+	"WeakRef": [
 		"apply",
 		"arguments",
 		"bind",
