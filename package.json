@@ -42,7 +42,7 @@
     "object"
   ],
   "devDependencies": {
-    "ava": "^6.1.3",
+    "ava": "^8.0.1",
     "js-types": "^4.0.0"
   }
 }
