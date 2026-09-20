@@ -283,6 +283,7 @@
 		"reject",
 		"resolve",
 		"toString",
+		"try",
 		"withResolvers"
 	],
 	"Proxy": [
